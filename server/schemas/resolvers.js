@@ -41,6 +41,8 @@ const resolvers = {
         .populate("thoughts");
     },
   },
+
+  // Creating, Updating or Deleting
   Mutation: {
     // add a user
     addUser: async (parent, args) => {
